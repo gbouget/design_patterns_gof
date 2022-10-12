@@ -1,8 +1,7 @@
 package com.behaviour.visitor.canonical;
 
 /**
- * @author Gaëtan Bouget
- * <p>Grâce au polymorphisme, le design pattern Visitor est un bon moyen de respecter le principe open/closed. En contrepartie, la classe Visitor doit implémenter autant de méthodes "visit" que de classes concrètes Visitable.
+ * @author Gaï¿½tan Bouget
  */
 public class Main {
 
@@ -14,7 +13,6 @@ public class Main {
 		System.out.println("Instanciation des visitor");
 		final Visitor visitorA = new VisitorImplA();
 		final Visitor visitorB = new VisitorImplB();
-		
 		
 		System.out.println("Visite A/A");
 		visitableA.accepter(visitorA);
