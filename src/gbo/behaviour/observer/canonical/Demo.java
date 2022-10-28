@@ -1,14 +1,8 @@
-package com.behaviour.observer.canonical;
+package gbo.behaviour.observer.canonical;
 
 /**
- * @author Gaëtan Bouget
- * @implNote a complexité de design pattern peut se jouer sur les éléments suivants :
- * En pratique, l'implémentation du deign peut 
- * <ul>
- * <li>Choix de la structure de données (type) pour stocker la collection des observateurs
- * <li>Complexification des règles pour notifier les observateurs (ordre d'appel, appel ou non, filtrage ou personnalisation des données, etc.)
- * <li>Transfert des données entre le sujet et les observateurs (envoyer toutes les informations en une fois, faire un premier appel puis laisser la main aux observateurs pour tirer certaines données du sujet)
- * </ul>
+ * @implNote
+ *
  */
 public class Demo {
 	public static void main(String[] args) {
@@ -41,7 +35,7 @@ public class Demo {
 		System.out.println("Envoi d'un signal du sujet aux observateurs");
 		sujet.notifier();
 		
-		System.out.println("Création de l'observateur 4");
+		System.out.println("Crï¿½ation de l'observateur 4");
 		final Observateur observateur04 = new ObservateurImpl();
 		
 		System.out.println("Envoi d'un signal du sujet aux observateurs");

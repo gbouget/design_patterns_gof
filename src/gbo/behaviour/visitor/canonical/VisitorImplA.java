@@ -1,4 +1,4 @@
-package com.behaviour.visitor.canonical;
+package gbo.behaviour.visitor.canonical;
 
 public class VisitorImplA implements Visitor {
 	

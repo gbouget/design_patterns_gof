@@ -1,4 +1,4 @@
-package com.behaviour.observer.canonical;
+package gbo.behaviour.observer.canonical;
 
 public class ObservateurImpl implements Observateur {
 	

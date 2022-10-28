@@ -1,9 +1,10 @@
-package com.behaviour.visitor.canonical;
+package gbo.behaviour.visitor.canonical;
 
 /**
- * @author Ga�tan Bouget
+ * @implNote
+ *
  */
-public class Main {
+public class Demo {
 
 	public static void main(String[] args) {
 		System.out.println("Instanciation des visitables");

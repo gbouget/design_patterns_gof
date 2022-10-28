@@ -1,4 +1,4 @@
-package com.behaviour.observer.canonical;
+package gbo.behaviour.observer.canonical;
 
 import java.util.ArrayList;
 import java.util.List;

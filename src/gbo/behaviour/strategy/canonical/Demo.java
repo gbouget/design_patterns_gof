@@ -1,7 +1,7 @@
-package com.behaviour.strategy.canonical;
+package gbo.behaviour.strategy.canonical;
 
 /**
- * 
+ * Le pattern stratégie utilise le polymorphisme pour abstraire l'implémentation concrète de l'algorithme.
  * @author gbouget
  *
  */

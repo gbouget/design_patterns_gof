@@ -1,4 +1,4 @@
-package com.behaviour.observer.canonical;
+package gbo.behaviour.observer.canonical;
 
 // Subject or Observer
 public interface Sujet {

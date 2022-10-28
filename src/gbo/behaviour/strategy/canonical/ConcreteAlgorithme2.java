@@ -1,4 +1,4 @@
-package com.behaviour.strategy.canonical;
+package gbo.behaviour.strategy.canonical;
 
 public class ConcreteAlgorithme2 implements AbstractionAlgorithme {
 
