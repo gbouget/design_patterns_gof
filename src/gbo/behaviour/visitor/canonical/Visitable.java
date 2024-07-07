@@ -1,4 +1,4 @@
-package com.behaviour.visitor.canonical;
+package gbo.behaviour.visitor.canonical;
 
 public interface Visitable {
 	public void accepter(final Visitor visiteur);
